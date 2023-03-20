@@ -1,7 +1,7 @@
 //CODIGO DE PRODUCCION DEL METODO
 function fizzbuzz(num)
 {
-    return '1';
+    return num+"";
 }
 
 export default fizzbuzz;
