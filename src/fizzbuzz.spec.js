@@ -6,7 +6,11 @@ describe("FizzBuzz", () => {
     expect(fizzbuzz(1)).toEqual('1');
   });
 
-  it("Generar FizzBuzz para otro numero", () => {
+  it("Generar FizzBuzz para numero 2", () => {
     expect(fizzbuzz(2)).toEqual('2');
+  });
+
+  it("Generar FizzBuzz para numero 3", () => {
+    expect(fizzbuzz(3)).toEqual('Fizz');
   });
 });
