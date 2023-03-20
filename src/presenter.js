@@ -9,5 +9,5 @@ form.addEventListener("submit", (event) => {
   div.innerHTML = "";
   const num = Number.parseInt(numero.value);
 
-  secuenciaFB(num,div);
+  div.innerHTML = secuenciaFB(num);
 });

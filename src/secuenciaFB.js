@@ -1,10 +1,12 @@
 //CODIGO DE PRODUCCION DEL METODO
 import fizzbuzz from "./fizzbuzz.js";
-function secuenciaFB(num,div)
+function secuenciaFB(num)
 {
+    let cadena = "";
     for(let i = 1; i <=num; i++){
-      div.innerHTML += fizzbuzz(i) + " ";
+      cadena += fizzbuzz(i) + " ";
     }
+    return cadena;
 }
 
 export default secuenciaFB;
